@@ -16,20 +16,29 @@ function onLoad(){
 	for (var i = 0; i < nbSmileys; i++) {
 		stateSmileys[i] = false;
 		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;
-}
+	}
 
+	imgSmile = new Image();
+	imgSmile.src="img/smiley.png";
+
+	imgSad = new Image();
+	imgSad.src="img/smiley_angry.jpg";
 
 }
 
 function giveSmile(ID){
 	if (nbSmilingSmileys < nbSmileys && stateSmileys[ID-1] === false)	{
 		let smileyID = 'smiley'+ ID
-		document.getElementById(smileyID).src = "img/smiley.png";
+		document.getElementById(smileyID).src = imgSmile.src;
 
 		nbSmilingSmileys += 1 ;
 		stateSmileys[ID-1] = true;
 		
-		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;
+		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	
+	}
+	if (nbSmilingSmileys === nbSmileys){
+	document.getElementById("message").innerHTML = "";		
+	document.getElementById("messageBravo").innerHTML = "YOU WIN !";
 	}
 }
 
@@ -42,15 +51,16 @@ function looseSmile(){
 		nbSmilingSmileys -= 1 ;
 		stateSmileys[ID-1] = false;
 
-		document.getElementById(smileyToUnsmile).src = "img/smiley_angry.jpg";
+		document.getElementById(smileyToUnsmile).src = imgSad.src;
 		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	
 	}
 }
 
-
+/*
 function checkSmile(){
 	if (nbSmilingSmileys === nbSmileys){
 		document.getElementById("message").innerHTML = "";		
 		document.getElementById("messageBravo").innerHTML = "YOU WIN !";
 	}
 }
+*/
