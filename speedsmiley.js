@@ -5,11 +5,11 @@ let nbSmilingSmileys = 0;
 let stateSmileys = [];
 
 
-alert ("C'est le confinement, les Smileys ne sont pas contents... Voulez-vous les aider à retrouver le sourire ?");
+alert ("C'est le confinement, les smileys ne sont pas contents... Aidez-les à retrouver le sourire !");
 
 
 var myVar = setInterval(looseSmile, 800);
-var myVar = setInterval(checkSmile, 100);
+/*var myVar = setInterval(checkSmile, 100);*/
 
 
 function onLoad(){
