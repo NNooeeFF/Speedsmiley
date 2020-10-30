@@ -38,7 +38,7 @@ function giveSmile(ID){
 	}
 	if (nbSmilingSmileys === nbSmileys){
 	document.getElementById("message").innerHTML = "";		
-	document.getElementById("message").innerHTML = "YOU WIN !";
+	document.getElementById("message2").innerHTML = "YOU WIN !";
 	}
 }
 
