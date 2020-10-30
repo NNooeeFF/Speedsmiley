@@ -1,0 +1,31 @@
+
+body {
+	background-color: #e6d5b8;
+	text-align: center;
+	margin: 30px;
+}
+
+.msg_NB {
+	color: #1f6f8b;
+	font-size: 80px;
+}
+
+.msg_BRAVO {
+	color: #1f6f8b;
+	font-size: 60px;
+}
+
+.msg_box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+
+.box_smiley {
+	background-image: url("img/background_smiley.jpg");
+}
+
+.img_smiley {
+	width: 30%;
+	/*height: 100%;*/
+}
