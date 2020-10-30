@@ -19,10 +19,10 @@ function onLoad(){
 	}
 
 	imgSmile = new Image();
-	imgSmile.src="img/smiley.png";
+	imgSmile.src="img/smile_1.png";
 
 	imgSad = new Image();
-	imgSad.src="img/smiley_angry.jpg";
+	imgSad.src="img/sad_1.png";
 
 }
 
