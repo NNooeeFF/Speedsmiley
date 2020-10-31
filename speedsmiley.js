@@ -15,7 +15,7 @@ var myVar = setInterval(looseSmile, 600);
 function onLoad(){
 	for (var i = 0; i < nbSmileys; i++) {
 		stateSmileys[i] = false;
-		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;
+		/*document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;*/
 	}
 
 	imgSmile = new Image();
@@ -34,10 +34,10 @@ function giveSmile(ID){
 		nbSmilingSmileys += 1 ;
 		stateSmileys[ID-1] = true;
 		
-		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	
+		/*document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;*/	
 	}
 	if (nbSmilingSmileys === nbSmileys){
-	document.getElementById("message").innerHTML = "";		
+	/*document.getElementById("message").innerHTML = "";*/		
 	document.getElementById("message2").innerHTML = "YOU WIN !";
 	}
 }
@@ -52,7 +52,7 @@ function looseSmile(){
 		stateSmileys[ID-1] = false;
 
 		document.getElementById(smileyToUnsmile).src = imgSad.src;
-		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	
+		/*document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	*/
 	}
 }
 
