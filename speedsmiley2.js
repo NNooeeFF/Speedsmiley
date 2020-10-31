@@ -9,7 +9,7 @@ let emotiSmile = [];
 let emotiSad = [];
 
 
-alert ("Décidement, les smileys sont vraiment grognons... Aidez-les à retrouver leur optimisme !");
+alert ("C'est vraiment le rush dans les hôpitaux... Aidez-les les soignants à rendre le smile aux patients !");
 
 
 var myVar = setInterval(looseSmile, 600);
@@ -89,7 +89,7 @@ function giveSmile(ID){
 		document.getElementById("message").innerHTML = nbSmilingSmileys + '/' + nbSmileys;	
 	}
 	if (nbSmilingSmileys === nbSmileys){
-	document.getElementById("message").innerHTML = "";		
+	/*document.getElementById("message").innerHTML = "";*/		
 	document.getElementById("message2").innerHTML = "YOU WIN !";
 	}
 }
