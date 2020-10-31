@@ -8,7 +8,7 @@ let stateSmileys = [];
 alert ("C'est le confinement, les smileys ne sont pas contents... Aidez-les à retrouver le sourire !");
 
 
-var myVar = setInterval(looseSmile, 800);
+var myVar = setInterval(looseSmile, 600);
 /*var myVar = setInterval(checkSmile, 100);*/
 
 
