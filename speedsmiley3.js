@@ -12,7 +12,7 @@ let emotiSad = [];
 alert (" Le nombre de cas du virus Unsmile-19 ne cesse de croître... tenez bon !");
 
 
-var myVar = setInterval(looseSmile, 400);
+var myVar = setInterval(looseSmile, 600);
 /*var myVar = setInterval(changeSmile, 2000);
 */
 /*var myVar = setInterval(checkSmile, 100);*/
