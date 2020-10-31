@@ -90,7 +90,7 @@ function giveSmile(ID){
 	}
 	if (nbSmilingSmileys === nbSmileys){
 	/*document.getElementById("message").innerHTML = "";*/		
-	document.getElementById("message2").innerHTML = "YOU WIN !";
+	document.getElementById("message2").innerHTML = "Bravo, mais ce n'était que la première vague, rendez-vous au prochain niveau !";
 	}
 }
 
