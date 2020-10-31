@@ -9,7 +9,7 @@ let emotiSmile = [];
 let emotiSad = [];
 
 
-alert ("C'est le confinement, les smileys ne sont pas contents... Aidez-les à retrouver le sourire !");
+alert ("Décidement, les smileys sont vraiment grognons... Aidez-les à retrouver leur optimisme !");
 
 
 var myVar = setInterval(looseSmile, 600);
